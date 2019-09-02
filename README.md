@@ -14,6 +14,7 @@ The following code
 
 will throw an IllegalArgumentException on API 23 and below !
 
+Most of the time, you don't want the weak year. You want the year! Use 'y' instead of 'Y'.
 
 - Start a new Android Studio project
 - Empty Activity
