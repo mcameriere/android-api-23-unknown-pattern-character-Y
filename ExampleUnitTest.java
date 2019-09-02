@@ -1,4 +1,4 @@
-package com.samples.unkownpatterncharactery;
+package com.example.unknownpatterncharactery;
 
 import org.junit.Test;
 
