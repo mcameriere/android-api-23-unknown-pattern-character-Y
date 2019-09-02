@@ -1,7 +1,8 @@
 package com.example.unknownpatterncharactery;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
@@ -23,14 +24,12 @@ public class MainActivity extends AppCompatActivity {
             String formattedDate = formatter.format(last_day_of_2018);
             textViewDate.setText(formattedDate);
         } catch (IllegalArgumentException e) {
-            textViewDate.setText("Exception:" + e.getMessage());
+            textViewDate.setText(e.getMessage());
         }
-
     }
 
     private Date getLastDayOf2018() {
         Calendar calendar = Calendar.getInstance();
         calendar.set(2018, 11, 31);
-        return calendar.getTime();
-    }
+        return calendar.getTime();    }
 }
