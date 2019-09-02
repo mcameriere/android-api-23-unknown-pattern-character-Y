@@ -1,4 +1,4 @@
-package com.samples.unknownpatterncharactery;
+package com.example.unknownpatterncharactery;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
